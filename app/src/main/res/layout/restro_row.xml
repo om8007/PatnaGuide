@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+    <TextView
+        android:id="@+id/restro_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding2"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="restro name goes here" />
+
+    <LinearLayout
+        android:id="@+id/rating_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatRatingBar
+            android:id="@+id/restro_stars"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp" />
+
+        <TextView
+            android:id="@+id/restro_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/padding2"
+            android:textColor="@color/colorAccent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_restro_menu"
+            android:tint="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/restro_taste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorText"
+            android:textStyle="italic"
+            tools:text="Available dishes goes here" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/timing_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_schedule"
+            android:tint="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/restro_timing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/padding2"
+            android:textColor="@color/colorText"
+            tools:text="Schedule goes here" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/location_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_mapmarker"
+            android:tint="@color/colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/restro_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/padding2"
+            android:textStyle="italic"
+            tools:text="Location name here" />
+    </LinearLayout>
+</LinearLayout>

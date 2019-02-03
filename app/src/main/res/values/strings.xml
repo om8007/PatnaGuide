@@ -1,0 +1,168 @@
+<resources>
+    <string name="app_name">Patna Guide</string>
+
+    <string name="tab_header_spot">Tourist Spots</string>
+    <string name="tab_header_restro">Restaurants</string>
+    <string name="tab_header_hotel">Hotels</string>
+    <string name="tab_header_event">Events</string>
+
+    <string name="bihar_museum_title">Bihar Museum</string>
+    <string name="bihar_museum_location">Jawahar Lal Nehru Marg,,Patna</string>
+    <string name="bihar_museum_rating">4.5f</string>
+    <string name="bihar_museum_schedule">10:30 am - 5:00 pm</string>
+    <string name="bihar_museum_shortDesc">Modern history, art &amp; culture museum</string>
+    <string name="bihar_museum_fact">Sprawling, modern museum featuring exhibits on the region\'s history, art &amp; culture.</string>
+
+    <string name="gol_ghar_title">Gol Ghar</string>
+    <string name="gol_ghar_location">Park Rd,Raja Ji Salai,Chajju Bagh,Patna</string>
+    <string name="gol_ghar_rating">4.0f</string>
+    <string name="gol_ghar_schedule">10:00am - 5:00 pm</string>
+    <string name="gol_ghar_shortDesc">Historic granary with scenic views</string>
+    <string name="gol_ghar_fact">This large, stupa-style granary, completed in 1786, offers sweeping city views from the top.</string>
+
+    <string name="science_center_title">Sri Krishna Science Center</string>
+    <string name="science_center_location">Near Biscoman Bhawan</string>
+    <string name="science_center_rating">4.3f</string>
+    <string name="science_center_schedule">10:30 am - 6:30 pm</string>
+    <string name="science_center_shortDesc">Science museum with interactive exhibits</string>
+    <string name="science_center_fact">Family-friendly place with educational displays &amp; activities, plus a planetarium &amp; 3D theater.</string>
+
+    <string name="patna_museum_title">Patna Museum</string>
+    <string name="patna_museum_location">Budh Marg,Patna</string>
+    <string name="patna_museum_rating">4.3f</string>
+    <string name="patna_museum_schedule">10:30am - 8:00pm</string>
+    <string name="patna_museum_shortDesc">Museum showcasing regional artifacts</string>
+    <string name="patna_museum_fact">Stately museum exhibiting archaeological finds, cultural objects &amp; art from the Patna area.</string>
+
+    <string name="sanjay_gandhi_udyan_title">Sanjay Gandhi Jaivik Udyan</string>
+    <string name="sanjay_gandhi_udyan_location">Bailey Road,Raj Bhavan,Rajbansi Nagar,Patna</string>
+    <string name="sanjay_gandhi_udyan_rating">4.3f</string>
+    <string name="sanjay_gandhi_udyan_schedule">8:00am - 4:30pm</string>
+    <string name="sanjay_gandhi_udyan_shortDesc">Sprawling zoo &amp; botanical garden</string>
+    <string name="sanjay_gandhi_udyan_fact">Large zoological park &amp; gardens with a pond, a kids\' play area &amp; a small train in a lush landscape.</string>
+
+    <string name="funtasia_water_park_title">Funtasia Water Park</string>
+    <string name="funtasia_water_park_location">Parsa Bazar-Sampatchak Main Rd,Sampatchak,Patna</string>
+    <string name="funtasia_water_park_rating">3.9f</string>
+    <string name="funtasia_water_park_schedule">11:00am - 6:00pm</string>
+    <string name="funtasia_water_park_shortDesc">Waterslides, play pools &amp; concessions</string>
+    <string name="funtasia_water_park_fact">Popular attraction with waterslides, pools &amp; kids\’ play areas, plus events &amp; a restaurant.</string>
+
+    <string name="gandhi_sangrahalya_title">Gandhi Sangrahalya</string>
+    <string name="gandhi_sangrahalya_location">Ashok Raj Path,North-West Gandhi Maidan,Patna</string>
+    <string name="gandhi_sangrahalya_rating">4.3f</string>
+    <string name="gandhi_sangrahalya_schedule">10:00am-1:00pm,2:00pm-5:45pm</string>
+    <string name="gandhi_sangrahalya_shortDesc">Museum devoted to iconic Indian leader</string>
+    <string name="gandhi_sangrahalya_fact">Founded in 1967,this museum explores the life of Mahatma Gandhi via photos, movies &amp; manuscripts.</string>
+
+    <string name="buddha_smriti_park_title">Buddha Smriti Park</string>
+    <string name="buddha_smriti_park_location">Fraser Road,Near Patna Railway Station Patna Junction,Patna</string>
+    <string name="buddha_smriti_park_rating">4.3f</string>
+    <string name="buddha_smriti_park_schedule">9:00am - 7:00pm</string>
+    <string name="buddha_smriti_park_shortDesc"> Tranquil park with a stupa &amp; museum</string>
+    <string name="buddha_smriti_park_fact">Serene green space featuring a modern Buddhist museum, meditation hall, bodhi trees &amp; a large stupa.</string>
+
+    <string name="takht_patna_sahib_title">Takht Sri Patna Sahib</string>
+    <string name="takht_patna_sahib_location"> Patna - Aurangabad Rd,Mithapur,Patna</string>
+    <string name="takht_patna_sahib_rating">4.7f</string>
+    <string name="takht_patna_sahib_schedule">Gurudwara Timings</string>
+    <string name="takht_patna_sahib_shortDesc">Sikh gurudwara with educational info</string>
+    <string name="takht_patna_sahib_fact">Historic birthplace of the 10th guru of Sikhism, offering worship services &amp; education.</string>
+
+    <string name="patan_devi_title">Patan Devi Temple</string>
+    <string name="patan_devi_location">Sadikpur, Patna</string>
+    <string name="patan_devi_rating">4.5f</string>
+    <string name="patan_devi_schedule">Temple Timings</string>
+    <string name="patan_devi_shortDesc">Hindu temple &amp; site of pilgrimage</string>
+    <string name="patan_devi_fact">Hindu temple founded on one of 51 sites where parts of Devi Sati\'s corpse are said to have fallen.</string>
+
+    <string name="basant_vihar_title">Basant Vihar</string>
+    <string name="basant_vihar_location">Block-B Maurya Lok Complex,New Dak Bunglow Rd,Patna</string>
+    <string name="basant_vihar_taste">South Indian</string>
+    <string name="basant_vihar_rating">4.1f</string>
+    <string name="basant_vihar_schedule">10:00am - 10:30pm</string>
+
+    <string name="kd_elevens_title">Kapil Dev\'s Elevens</string>
+    <string name="kd_elevens_location">Frazer Road Dumraow Kothi, Near, Dak Bunglow, Chouraha, Patna</string>
+    <string name="kd_elevens_taste">Indian</string>
+    <string name="kd_elevens_rating">4.2f</string>
+    <string name="kd_elevens_schedule">11:30am - 10:30pm</string>
+
+    <string name="seventeen_deg_title">17 Degrees</string>
+    <string name="seventeen_deg_location"> P &amp; M Mall Rd, Patliputra Industrial Area, Patna</string>
+    <string name="seventeen_deg_taste">Indian,Chinease</string>
+    <string name="seventeen_deg_rating">4.3f</string>
+    <string name="seventeen_deg_schedule">12:00am - 10:30pm</string>
+
+    <string name="swaaddesh_title">Swaaddesh</string>
+    <string name="swaaddesh_location">Tapasya Complex, 2nd Chandra Complex, Boring Rd,Patna</string>
+    <string name="swaaddesh_taste">Indian,Chinease</string>
+    <string name="swaaddesh_rating">4.1f</string>
+    <string name="swaaddesh_schedule">12:00am - 10:30pm</string>
+
+    <string name="bolly_treats_title">Bollywood Treats</string>
+    <string name="bolly_treats_location">Hotel Maurya, Fraser Road, South Gandhi Maidan, Patna</string>
+    <string name="bolly_treats_taste">Indian,Chinease,Italian</string>
+    <string name="bolly_treats_rating">4.0f</string>
+    <string name="bolly_treats_schedule">12:00am - 10:00pm</string>
+
+    <string name="patna_rasoi_title">Patna Rasoi</string>
+    <string name="patna_rasoi_location">Marwari Awash Griha Campus, Frazer Road, Patna</string>
+    <string name="patna_rasoi_taste">Vegetarian Only</string>
+    <string name="patna_rasoi_rating">4.0f</string>
+    <string name="patna_rasoi_schedule">8:00am - 11:00pm</string>
+
+    <string name="bbq_nation_title">Barbeque Nation</string>
+    <string name="bbq_nation_location">8th Floor One Mall, New Dak Bunglow Rd,Patna</string>
+    <string name="bbq_nation_taste">Barbeque</string>
+    <string name="bbq_nation_rating">4.5f</string>
+    <string name="bbq_nation_schedule">12:00pm-3:00pm,6:30pm-10:30pm</string>
+
+    <string name="hotel_chanakya_title">Hotel Chanakya</string>
+    <string name="hotel_chanakya_location">R Block,Beer chand Patel Path,Marg,Patna</string>
+    <string name="hotel_chanakya_rating">4.1f</string>
+
+    <string name="hotel_maurya_title">Hotel Maurya</string>
+    <string name="hotel_maurya_location">Fraser Rd,South Gandhi Maidan,Raja Ji Salai,Lodipur,Patna</string>
+    <string name="hotel_maurya_rating">4.3f</string>
+
+    <string name="hotel_panache_title">Hotel The Panache</string>
+    <string name="hotel_panache_location">West of Ram Gulam Chowk,South Gandhi Maidan,Patna</string>
+    <string name="hotel_panache_rating">4.2f</string>
+
+    <string name="hotel_avr_title">The AVR Hotel</string>
+    <string name="hotel_avr_location">6th floor Bailey Road Above Big Bazar Kashyap Business Park,Patna </string>
+    <string name="hotel_avr_rating">4.2f</string>
+
+    <string name="hotel_amalfi_title">Hotel Amalfi Grand</string>
+    <string name="hotel_amalfi_location">Bailey Road Behind SBI/Tanishq Showroom,Ambedkar Path,Patna</string>
+    <string name="hotel_amalfi_rating">4.0f</string>
+
+    <string name="hotel_patliputra_title">Hotel Patliputra Continental</string>
+    <string name="hotel_patliputra_location">Bypass Crossing PC, Golamber, Anisabad, Patna</string>
+    <string name="hotel_patliputra_rating">4.2f</string>
+
+    <string name="hotel_lemontree_title">Lemon Tree Premier Patna</string>
+    <string name="hotel_lemontree_location">Plot no 876 Exhibition Road,Near Gandhi Maidan Rd,Patna</string>
+    <string name="hotel_lemontree_rating">4.0f</string>
+
+    <string name="event_bookfair_title">Patna Book Fair</string>
+    <string name="event_bookfair_location">International Convention Center,Murad pur,Patna</string>
+    <string name="event_bookfair_schedule">Thursday, 6 December, 2018</string>
+
+    <string name="event_ideathon_title">Bihar Ideathon 2018</string>
+    <string name="event_ideathon_location">Gyan Bhawan,Gandhi Maidan Road,Muradpur,Patna, Bihar</string>
+    <string name="event_ideathon_schedule">Monday,3 December,2018, 9:00 am</string>
+
+    <string name="event_jalexpo_title">Jal Expo</string>
+    <string name="event_jalexpo_location">Samrat Ashok Convention Center,Patna</string>
+    <string name="event_jalexpo_schedule">Fri,18 - Sun,20 Jan 2019</string>
+
+    <string name="event_hungama_title">Hungama World</string>
+    <string name="event_hungama_location">Danapur,Patna</string>
+    <string name="event_hungama_schedule">December 1 onwards</string>
+
+    <string name="event_donation_title">Blood Donation Camp</string>
+    <string name="event_donation_location">PMCH,Ashok Rajpath,Patna</string>
+    <string name="event_donation_schedule">9 am - 3 pm,30 Nov 2018</string>
+</resources>

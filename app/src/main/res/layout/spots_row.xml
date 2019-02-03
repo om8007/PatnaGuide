@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:paddingTop="@dimen/padding2"
+        android:id="@+id/spot_image"
+        android:scaleType="fitCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/spot_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/spot_image"
+        android:paddingLeft="@dimen/padding4"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/textsize16"
+        android:textStyle="bold"
+        tools:text="Spot name goes here" />
+
+    <LinearLayout
+        android:id="@+id/rating_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spot_title"
+        android:layout_toRightOf="@+id/spot_image"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatRatingBar
+            android:id="@+id/spot_stars"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp" />
+
+        <TextView
+            android:id="@+id/spot_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/padding2"
+            android:textColor="@color/colorAccent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/info_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rating_row"
+        android:layout_toRightOf="@+id/spot_image"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/info_18" />
+
+        <TextView
+            android:id="@+id/spot_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/padding2"
+            android:textColor="@color/colorText"
+            tools:text="Timing goes here" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/location_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/info_row"
+        android:layout_toRightOf="@+id/spot_image"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_mapmarker" />
+
+        <TextView
+            android:id="@+id/spot_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/padding2"
+            android:textStyle="italic"
+            tools:text="location name here" />
+    </LinearLayout>
+
+
+</RelativeLayout>
